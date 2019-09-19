@@ -1,0 +1,16 @@
+body{
+    background-color: blueviolet;
+
+
+}
+.maincontainer{
+ align-content: center;
+}
+.textcontainer{
+    float: left;
+    clear: both;
+}
+.formcontainer{
+    float: left;
+    clear: both;
+}
