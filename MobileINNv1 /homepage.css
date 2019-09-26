@@ -1,0 +1,74 @@
+.home-header {
+    display: block;
+    text-decoration: none;
+    background-color:black;
+    
+    overflow: hidden;
+    align-content: center;
+    size: 20px;
+
+}
+.logo-pic{
+    width: 100px;
+    height: 100px;
+}
+.home-header a{
+    text-align: center;
+    display: inline;
+    font-size: 17px;
+    color: black;
+    padding: 20px 20px;
+    position: relative;
+    top: 5px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.home-header a:hover{
+   
+    color: #636e72
+    
+}
+.search-container{
+    float: right;
+    position: relative;
+    right: 4%;
+    top: 5px;
+    padding: 20px 20px;
+    
+
+    
+    }
+
+.bar{
+    width: 255px;
+    font-size: 17px;
+    margin: 10px;
+    align-content: center;
+    position: relative;
+    top: 20%;
+    border-radius: 10%;
+}
+.btn{
+   
+    border-radius: 45px;
+        font-size: 15px;
+        margin: 10px;
+        color:  black;
+        background-color: silver;
+}  
+.sign-cart{
+    position: relative;
+   padding: 20px 20px;
+    float: right;
+    top: 15px;
+}
+.sign-cart a{
+    top: 5px;
+    right: 10%;
+}
+.cart{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    right: 27px;
+}
