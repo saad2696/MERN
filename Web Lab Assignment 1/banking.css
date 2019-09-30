@@ -1,0 +1,63 @@
+
+   .jumbotron-fluid{
+       background: url("bankcover.png");
+       background-size: cover;
+ 
+    
+   }
+   .display3{
+       color: whitesmoke;
+   }
+   .lead{
+       color: whitesmoke;
+   }
+   #btn1{
+       background-color: yellow;
+       color:black;
+   }
+   .head1{
+       color: #3498db;
+       position: relative;
+       left: 35%;
+       position: center;
+   }
+   #cont1{
+       padding: 20px 20px;
+    
+       
+   }
+   .container .card{
+       border: none;
+      
+    height: 100px;
+
+   }
+   .head2{
+    color: #3498db;
+    position: relative;
+    left: 35%;
+    top: 200px;
+
+}
+.text-center{
+    position: relative;
+    top:220px;
+    padding: 20px 20px;
+}
+.bank1{
+height: 200px;
+width: 400px;
+float: left;
+}
+.card-title1{
+    color: #3498db;
+    margin-right: 35%;
+    font-size: 30px;
+}
+.card-text1{
+    margin-right: 25%;
+    font: 12px;
+}
+.btn-primary{
+    margin-right: 55%;
+}
