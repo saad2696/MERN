@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+
+   <div class="container" id="form-holder" style="overflow: hidden;">
+      <h1>Sign Up Form</h1>
+      <p style="color: darkgrey;">Please Fill this form to create Account</p>
+     <p style="color: darkgrey;">--------------------------------------</p>
+      <div class="row" >
+            <input type="text" id="fname"  placeholder="First Name" style="margin: 10px" >
+            <input type="text" id="lname" placeholder="Last Name" style="margin: 10px" >
+ </div>
+ <div class="row" >
+        <input type="text" id="email"  placeholder="Email Address" style="margin: 10px"  >
+        
+</div>
+<div class="row" >
+        <input type="password" id="pwd"  placeholder="Confirm Password" style="margin: 10px"  >
+        <p id="pwderror"></p>
+       
+</div>
+
+<div class="row" >
+    
+         <label class="form-check-label" style="margin: 25px">
+           <input type="checkbox" class="form-check-input" name="" id="check" value="checkedValue" required >
+          I agree to <a href="signup.html">terms</a> and <a href="signup.html">conditions</a> 
+         </label>
+
+</div>
+
+<div class="row" >
+       <input type="submit" onclick="validateForm()"  style="margin: 10px" >
+       
+</div>
+</div>
+
+
+<script src="signup.js" ></script>
+    
+</body>
+</html>

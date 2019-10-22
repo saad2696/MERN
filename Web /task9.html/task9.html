@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+
+   
+    <div class="container">
+
+        <div class="row">
+                <label for="Name">Label Name</label>
+                <input type="text" id="nameinput" >
+
+        </div>
+        <div class="row">
+                <label for="Name">Label colour</label>
+                <input type="text" id="colorinput"> 
+
+        </div>
+        <div class="row">
+                <label for="Name">Label Size</label>
+                <input type="text" id="sizeinput">
+
+        </div>
+        <div class="row">
+                
+
+        </div>
+        <input type="submit" onclick= "createform()">
+        
+  
+</div>
+<div id="result" style="padding-top: 30px"></div>
+
+</div>
+
+
+    <script>
+        function createform(){
+            var iname = document.getElementById("nameinput").value;
+            var cname = document.getElementById("colorinput").value ;
+            var sname = document.getElementById("sizeinput").value ;
+            console.log(iname);
+       
+      
+       var newl = document.createElement("label");
+
+       newl.setAttribute("style","width: "+sname+"px;");
+       newl.setAttribute("style","color: "+cname+"px;");
+       newl.innerHTML= iname;
+       document.getElementById("result").appendChild(newl);
+  
+    
+
+        }
+    
+
+    
+    </script>
+
+
+</body>
+</html>

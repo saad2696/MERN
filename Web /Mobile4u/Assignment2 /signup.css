@@ -1,0 +1,19 @@
+
+
+
+
+#form-holder{
+
+    align-content: center;
+    position: relative;
+    float: right;
+    right: 35%;
+    top: 140px;  
+    background-color: #dfe6e9;
+    width: 30%;
+    
+}
+#pwderror{
+    position: relative;
+    top: 20px;
+}

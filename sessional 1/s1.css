@@ -1,0 +1,35 @@
+.jumbotron-fluid{
+    background: url("bg1.jpg");
+    background-size: cover;
+}
+#nav{
+    position: relative;
+    bottom: 45px;
+}
+.nav-item{
+    color: whitesmoke;
+}
+#container1{
+    position: relative;
+    right: 45px;
+}
+.logo2{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-right: 30px;
+
+}
+.brief1{
+    margin-left: 55px;
+}
+#cont1{
+   position: relative;
+   top: 60px;
+
+}
+.card-img-top{
+    height: 50px;
+    width: 50px;
+    background-position: center;
+}
