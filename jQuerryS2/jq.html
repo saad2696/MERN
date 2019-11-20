@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery-3.4.1.js" ></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <button id='hide'>Click Me!</button>
+    <h1 id='hideMe'>Hide me with this button!</h1>
+    <button id='makelist '> create list</button>
+    <button  onclick="dosort()"> sort list </button>
+    <ul>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+    </ul>
+    
+    <script>
+        var item = ['cat', 'banana','apple'];
+  $(document).ready(function(){
+      $('#hide').click(function(){
+         $('#hideMe').toggle(1000);
+      });
+      $('#makelist').click(function(){
+          for(i=0 ; i<item.length;i++){
+            $('ul').append("<li>" +items[i]+ "</li>");
+          }
+ });
+
+  });
+ function dosort(){
+ item.sort();
+ console.log(item);
+}
+
+
+
+
+    </script>
+</body>
+</html>

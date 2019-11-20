@@ -1,0 +1,20 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "simple creation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saad2696/webtech.git"
+  },
+  "author": "Saad_ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saad2696/webtech/issues"
+  },
+  "homepage": "https://github.com/saad2696/webtech#readme"
+}

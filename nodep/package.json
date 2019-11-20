@@ -1,0 +1,25 @@
+{
+  "name": "saadahmed",
+  "version": "1.0.0",
+  "description": "node practice s2",
+  "main": ".mongorc.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.7",
+    "nodemon": "^1.19.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saad2696/webtech.git"
+  },
+  "author": "saad_ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saad2696/webtech/issues"
+  },
+  "homepage": "https://github.com/saad2696/webtech#readme"
+}
