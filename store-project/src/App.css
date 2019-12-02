@@ -22,6 +22,6 @@ body{
 .text-bright{
 color: var(--lightBlue);
 }
-.navbar-brand{
+.navbar-brand{  
   width: 55px;
-  
+}
