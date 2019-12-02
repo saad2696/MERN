@@ -6,6 +6,7 @@ export default class ProductList extends Component {
         return (
             <div>
                 <Product/>
+                <h3>yes you making call here to Product</h3>
             </div>
         )
     }
