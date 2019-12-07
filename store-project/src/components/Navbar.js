@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 import logo from '../logo.png'
-
+//import styled from 'styled-components';
+import {ButtonConatiner} from './Button'
+//import {navWrapper} from './NavWrapper.jsx'
+import {navWrapper} from './Button'
 export default class Navbar extends Component {
     render() {
         return (
             <div>
-                <nav className="navbar navbar-expand-sm bg-dark navbar-dark px-sm-7">
+                <navWrapper className="navbar navbar-expand-sm bg-dark navbar-dark px-sm-7">
                     <Link to="/">
                     <img src={logo} alt="store"
                     className="navbar-brand" />
@@ -21,15 +24,18 @@ export default class Navbar extends Component {
 
                   </ul>
                   <Link to="/cart" className="ml-auto">
-                      <button>
+                      <ButtonConatiner>
                       <i class="fas fa-shopping-cart"></i>
                       Check out
-                      </button>
+                      </ButtonConatiner>
+                     
+                     
 
                   </Link>
 
-                </nav>
+                </navWrapper>
             </div>
-        )
+        );
     }
 }
+
