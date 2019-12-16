@@ -1,2 +1,2 @@
 # webtech
-Practice of HTML,CSS and MERN
+The Journy Of learning MERN Stack
