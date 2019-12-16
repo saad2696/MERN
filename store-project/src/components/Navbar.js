@@ -4,12 +4,12 @@ import logo from '../logo.png'
 //import styled from 'styled-components';
 import {ButtonConatiner} from './Button'
 //import {navWrapper} from './NavWrapper.jsx'
-import {navWrapper} from './Button'
+import {NavWrapper} from './Button'
 export default class Navbar extends Component {
     render() {
         return (
             <div>
-                <navWrapper className="navbar navbar-expand-sm bg-dark navbar-dark px-sm-7">
+                <NavWrapper className="navbar navbar-expand-sm bg-dark navbar-dark px-sm-7">
                     <Link to="/">
                     <img src={logo} alt="store"
                     className="navbar-brand" />
@@ -25,7 +25,7 @@ export default class Navbar extends Component {
                   </ul>
                   <Link to="/cart" className="ml-auto">
                       <ButtonConatiner>
-                      <i class="fas fa-shopping-cart"></i>
+                      <i className="fas fa-shopping-cart"></i>
                       Check out
                       </ButtonConatiner>
                      
@@ -33,7 +33,7 @@ export default class Navbar extends Component {
 
                   </Link>
 
-                </navWrapper>
+                </NavWrapper>
             </div>
         );
     }

@@ -15,6 +15,6 @@ background:var(--mainDark);
 }
 ;  `
 
-export const navWrapper = styled.nav`
+export const NavWrapper = styled.nav`
 color: var(--mainDark);
 `;
